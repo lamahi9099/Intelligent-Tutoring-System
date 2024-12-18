@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/geometryquiz#"
+     xml:base="http://www.semanticweb.org/geometryquiz"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/geometryquiz"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#learnShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geometryquiz#learnShape">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/geometryquiz#Shape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#area -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geometryquiz#area">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Trapezoid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#base1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geometryquiz#base1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Trapezoid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#base2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geometryquiz#base2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Trapezoid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geometryquiz#email">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geometryquiz#firstName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geometryquiz#height">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Trapezoid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geometryquiz#lastName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/geometryquiz#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Parallelogram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geometryquiz#Parallelogram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geometryquiz#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Question -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geometryquiz#Question"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geometryquiz#Shape"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geometryquiz#Student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Trapezoid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geometryquiz#Trapezoid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/geometryquiz#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Answer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geometryquiz#Answer1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Karan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geometryquiz#Karan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geometryquiz#Student"/>
+        <email>lamahi9099@gmail.com</email>
+        <firstName>Karan</firstName>
+        <lastName>Chaudhary</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Student1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geometryquiz#Student1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geometryquiz#Student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geometryquiz#Trapezoid1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geometryquiz#Trapezoid1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geometryquiz#Trapezoid"/>
+        <area rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</area>
+        <base1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</base1>
+        <base2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</base2>
+        <height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</height>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
